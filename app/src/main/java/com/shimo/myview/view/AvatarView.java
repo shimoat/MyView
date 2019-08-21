@@ -1,4 +1,4 @@
-package com.shimo.myview;
+package com.shimo.myview.view;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -12,6 +12,9 @@ import android.graphics.RectF;
 import android.graphics.Xfermode;
 import android.util.AttributeSet;
 import android.view.View;
+
+import com.shimo.myview.R;
+import com.shimo.myview.Utils;
 
 /**
  * @Author: xiaoA

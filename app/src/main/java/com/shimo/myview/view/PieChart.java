@@ -1,4 +1,4 @@
-package com.shimo.myview;
+package com.shimo.myview.view;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -7,6 +7,8 @@ import android.graphics.Paint;
 import android.graphics.RectF;
 import android.util.AttributeSet;
 import android.view.View;
+
+import com.shimo.myview.Utils;
 
 /**
  * @Author: xiaoA
@@ -22,6 +24,7 @@ public class PieChart extends View {
 
     Paint mPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
     RectF bounds = new RectF();
+
     private int[] angles = {60, 100, 120, 80};
     private int[] colors = {Color.parseColor("#2979FF"),
             Color.parseColor("#C2185b"),
